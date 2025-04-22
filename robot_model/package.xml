@@ -4,10 +4,19 @@
   <name>robot_model</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="">user</maintainer>
+  <maintainer email="leanderdsouza1234@gmail.com">Leander Dsouza</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
+  <depend>xacro</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>joint_state_broadcaster</depend>
+  <depend>controller_manager</depend>
+  <depend>gazebo_ros2_control</depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+  <depend>diff_drive_controller</depend>
+
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
